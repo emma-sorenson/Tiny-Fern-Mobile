@@ -74,18 +74,15 @@ table {
     margin: 0 0 60px 0;
   }
 
-  div {
-    width: 320px;
-  }
   p {
     font: 14 "Minion Pro", Helvetica, Arial, sans-serif;
   }
   
-  .container {
-    left: -50px;
-    position: relative;
-    top: -160px;
-  }
+.container {
+  left: -50px;
+  position: relative;
+  top: -160px;
+}
 
 .our-story {
   background: #DDD1B2;
@@ -124,7 +121,6 @@ table {
 .jon-and-valerie p {
   line-height: 150%;
   height: auto;
-  width: 290px;
   padding: 30px 20px 50px 50px;
 }
 
@@ -206,10 +202,6 @@ a {
   ========================================
 */
 
-
-body {
-  max-width: 320px;
-}
 
 
 
