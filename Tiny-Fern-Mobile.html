@@ -12,54 +12,72 @@
     
     <body>
         <header>
-            <h1 class="logo">
-                <img width="150" src="assets/tinyfernfinallogosmall.png">
-                </h1>
+                <nav class="navigation">
+                <a href="#our-story-section" class="our-story">our story</a>
+                <a href="#team-section" class="team">team</a>
+                <a href="#tiny-fern-section" class="short-logo">tiny fern</a>
+                <a href="#reservations-section" class="reservations-nav">reservations</a>
+                <a href="#contact-us-section"class="contact">contact</a>
+            </nav>
         </header>
         <section class="intro-video">
-          <video width="320"  controls >
+          <video width="65%" controls>
             <source src="assets/tiny-fern-video.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video>
+          
         </section>
+        <div id="our-story-section" class="our-story-section">
+              <section>
+            <div>
+                <div></div><img class="our-story-handwritten" width="740px" src="assets/our-story.png">
+            </div>
+            <div class="our-story-body"> 
+                <img class="our-story-line" width="7%" src="assets/our-story-line.png" alt="Handwritten Line">
+                <p class="our-story-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas purus ut ante cursus, at efficitur nulla porttitor. Sed finibus sapien a pellentesque posuere. Maecenas quis dolor pellentesque, cursus turpis placerat, ornare velit. Nulla sed malesuada urna. Aenean fringilla risus at nisi ultrices, scelerisque pulvinar metus maximus. Sed commodo, leo vitae rhoncus pulvinar, orci quam venenatis nisl, vitae accumsan neque ante ac massa. Nunc neque lorem, dictum sed neque et, fringilla consequat tortor.</p>
+                <img class="logo-full" src="assets/tinyfernfinallogo.png" alt="Tiny Fern Logo" >
+                </section>
+            </div>
+            <div><img class="plated-brioche" width="100%" src="assets/plated-brioche.png" alt="Plated Brioche" >
+            </div></div>
 
-          <section class="our-story">
-              <div class="container">
-                <img width="320" src="assets/our-story.png">
-                <p class="our-story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas purus ut ante cursus, at efficitur nulla porttitor. Sed finibus sapien a pellentesque posuere. Maecenas quis dolor pellentesque, cursus turpis placerat, ornare velit. Nulla sed malesuada urna. Aenean fringilla risus at nisi ultrices, scelerisque pulvinar metus maximus. Sed commodo, leo vitae rhoncus pulvinar, orci quam venenatis nisl, vitae accumsan neque ante ac massa. Nunc neque lorem, dictum sed neque et, fringilla consequat tortor.</div>
-                </p>
-                <div class="logo-full">
-                    <img width="275" src="assets/tinyfernfinallogo.png" alt="Tiny Fern Logo" >
-                </div>
-            </section>
-
-           <section class="jon-and-valerie">
-               <img width="320" src="assets/plated-brioche.png" alt="Plated Brioche" >
-               <img class="jon-and-valerie-handwritten" width="250" src="assets/jon-and-valerie-written.png" alt="Jon and Valerie">
-               <img width="320" src="assets/jon-and-valerie.png" alt="Jon and Valerie Image">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas purus ut ante cursus, at efficitur nulla porttitor. Sed finibus sapien a pellentesque posuere. Maecenas quis dolor pellentesque, cursus turpis placerat, ornare velit. Nulla sed malesuada urna. Aenean fringilla risus at nisi ultrices, scelerisque pulvinar metus maximus. Sed commodo, leo vitae rhoncus pulvinar, orci quam venenatis nisl, vitae accumsan neque ante ac massa. Nunc neque lorem, dictum sed neque et, fringilla consequat tortor.</p>
+           <section id="team-section" class="jon-and-valerie">
+               <div class="offset-jon-and-valerie"><div class="jon-and-valerie-handwritten"><img class="jon-handwritten" src="assets/jon-written.png" alt="Jon and Valerie">
+               <img class="and-handwritten" src="assets/and-written.png" alt="Jon and Valerie">
+               <img class="valerie-handwritten" src="assets/valerie-written.png" alt="Jon and Valerie"></div></div>
+               <div class="jon-and-valerie-photo"><img class="jon-and-valerie-photo" width="60%" src="assets/jon-and-valerie.png" alt="Jon and Valerie Image"></div>
+               <div class="jon-and-valerie-text">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas purus ut ante cursus, at efficitur nulla porttitor. Sed finibus sapien a pellentesque posuere. Maecenas quis dolor pellentesque, cursus turpis placerat, ornare velit. Nulla sed malesuada urna. Aenean fringilla risus at nisi ultrices, scelerisque pulvinar metus maximus. Sed commodo, leo vitae rhoncus pulvinar, orci quam venenatis nisl, vitae accumsan neque ante ac massa. Nunc neque lorem, dictum sed neque et, fringilla consequat tortor.</p></div>
            </section>
 
-           <section class="reservations">
-            <a class="btn btn-alt" href="https://www.eventbrite.com/e/tiny-fern-supper-club-tickets-278088308617">RESERVATIONS</a>
-
+           <section id="reservations-section" class="reservations">
+            <div><a class="reservations-button" href="https://www.eventbrite.com/e/tiny-fern-supper-club-tickets-278088308617">RESERVATIONS</a></div>
            </section>
 
-        <section class="contact-us">
-            <img width="320" src="assets/contact-us.png">
-                    <form action="/email" method="post">
-                        <input type="text" name="name" class="form">
-                        <h2>name</h2>
-                        <input type="email" name="email-address" class="form">
-                        <h2>email</h2>
-                        <textarea type="comment" name="comment" class="comment-box form">
-                        <h2>comment</h2>
-                        <button name="submit">submit</button>
+        <section id="contact-us-section" class="contact-us">
+            <img width="485px" src="assets/contact-us.png">
+                   <div class="form"><form action="email" method="post">
+                        <label>
+                            <input type="text" name="name" class="form">name
+                        </label>
+                        <label>
+                            <input type="email" name="email-address" class="form">email
+                        </label>
+                        <label>
+                            <input type="comment" name="comment" class="comment-box-form">comment
+                        </label>
+                        <button class="submit-button" name="submit">submit</button>
                     </form>
+                   </div>
            </section>
-           <footer>
-            <h1 class="logo">
-                <img width="120" src="assets/tinyfernfinallogosmall.png">
-                </h1>
-            </footer>
+           
+           <div class="site-footer"><footer id="footer" class="site-footer" role="contentinfo">
+                <nav class="navigation">
+                <a href="#our-story-section" class="our-story">our story</a>
+                <a href="#team-section" class="team">team</a>
+                <a href="#tiny-fern-section" class="short-logo">tiny fern</a>
+                <a href="#reservations-section" class="reservations-nav">reservations</a>
+                <a href="#contact-us-section"class="contact">contact</a>
+            </nav>
+            </footer></div>
     </body>
