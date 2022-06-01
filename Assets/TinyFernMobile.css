@@ -47,13 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-/*
-  ========================================
-  Font styles
-  ========================================
-*/
-
-
 
 /*
   ========================================
@@ -73,6 +66,11 @@ table {
     display: block;
     margin: 0 0 60px 0;
   }
+
+.intro-video video {
+  width: 100%
+  
+}
 
   p {
     font: 14 "Minion Pro", Helvetica, Arial, sans-serif;
